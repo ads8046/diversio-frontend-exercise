@@ -6,7 +6,7 @@ Thank you for considering me for the role of Full-Stack Engineer. This my soluti
 Diversio's FE take-home exercise that involved building a Color Picker widget! I really enjoyed
 building this project. Let me briefly walk you through my thought process behind my
 implementation approach.\
-You can find the exercise here:\ https://gitfront.io/r/sometimescasey/9ee3c8450b88bf353cfa45487e002f19399b4477/udkMfz5jPHme8bEs/
+You can find the exercise here: https://gitfront.io/r/sometimescasey/9ee3c8450b88bf353cfa45487e002f19399b4477/udkMfz5jPHme8bEs/
 
 ## How to run
 
