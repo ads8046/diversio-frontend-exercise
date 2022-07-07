@@ -69,5 +69,5 @@ college project due date approaching so I am short on time to be able to experim
 experimenting with new technologies)! :-)
 
 Again, thank you so much for taking out your valuable time to review my application and my solution for this exercise! 
-Please do not hesitate to reach out to me if you need any further details or clarification.
+Please do not hesitate to reach out to me if you need any further details, have any feedback or require any clarifications.
 
