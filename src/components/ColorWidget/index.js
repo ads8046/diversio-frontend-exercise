@@ -53,24 +53,15 @@ const ColorWidget = (props) => {
     
 
     // // END OF DATA FETCHING CODE 
-    let exampleColorList;
+    let colorsArray;
 
     if (colors) {
-        exampleColorList = colors.data.colorChoices;
-        console.log(exampleColorList);
+        colorsArray = colors.data.colorChoices;
+        console.log(colorsArray);
     } else {
-        exampleColorList = ["#D7CEE4",
-                "#CFB4F7",
-                "#6221EA",
-                "#0725E8",
-                "#B6BFF6",
-                "#FEBECD",
-                "#FBC02D",
-                "#109CF1",
-                "#FF2455",
-                "#FF8A00",
-                "#8F40EB",
-               ]
+        const defaultColorsArr = ["#D7CEE4", "#CFB4F7", "#6221EA", "#0725E8", "#B6BFF6", 
+            "#FEBECD", "#FBC02D", "#109CF1", "#FF2455", "#FF8A00", "#8F40EB"]
+        colorsArray = defaultColorsArr;
     }
 
     return (
@@ -80,9 +71,8 @@ const ColorWidget = (props) => {
                 <h2>Color Picker Widget<br/> 
                 Pick a color! </h2>  
             </div>
-            <ColorChoices list={exampleColorList}/>
-            <br/>
-             
+            <ColorChoices colorList={colorsArray}/>
+            <br/> 
             <div>
                 <h4>API Payload:<br/></h4> 
                 {JSON.stringify(colors)}

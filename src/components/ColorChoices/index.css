@@ -20,6 +20,6 @@
 	border: solid white 1.5px;
 }
 
-.colorChoicesBox:focus {
-	border: solid skyblue 2.5px;
+.myClickState {
+	border: solid skyblue 1.5px;
 }

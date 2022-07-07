@@ -3,8 +3,7 @@ import './index.css';
 
 const ColorBox = (props) => {
 	return (
-		<div className="colorBox" style={{backgroundColor: String(props.bgColor)}}>
-		</div>
+		<div className="colorBox" style={{backgroundColor: String(props.bgColor)}}/>
 	);
 }
 
