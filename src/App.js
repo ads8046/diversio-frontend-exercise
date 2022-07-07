@@ -2,7 +2,7 @@ import ColorWidget from './components/ColorWidget';
 
 function App() {
   return (
-      <ColorWidget />
+      <ColorWidget/>
   );
 }
 

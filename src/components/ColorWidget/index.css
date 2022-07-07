@@ -10,3 +10,21 @@
     text-align: center;
     color: blue;
 }
+
+
+.payload-string-container {
+    width: 650px;
+    height: auto;
+    word-wrap: break-word;
+    border: solid black 2px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+h4 {
+    margin: 0px;
+    margin-bottom: 10px;
+}

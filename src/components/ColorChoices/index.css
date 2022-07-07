@@ -3,7 +3,7 @@
 	border-radius: 15px;
 	border: solid blue 5px;
 	padding: 25px;
-	width: 200px;
+	width: 204px;
 	margin-top: 10px;
 	display: flex;
 	flex-wrap: wrap;
@@ -17,9 +17,9 @@
 }
 
 .colorChoiceBox:hover {
-	border: solid white 1.5px;
+	border: solid lime 1.5px;
 }
 
-.myClickState {
-	border: solid skyblue 1.5px;
+.colorChoiceBox:focus {
+	border: solid white 1.5px;
 }
