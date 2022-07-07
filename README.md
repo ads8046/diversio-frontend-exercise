@@ -4,7 +4,7 @@ Name: Atharva Shivankar    <ads8046@g.rit.edu>
 ## Introduction
 Thank you for considering me for the role of Full-Stack Engineer. This my solution for
 Diversio's FE take-home that involved building a Color Picker widget! I really enjoyed
-building this widget, so let me briefly walk you through my thought process behind my
+building this project. Let me briefly walk you through my thought process behind my
 implementation approach.
 
 ## How to run
