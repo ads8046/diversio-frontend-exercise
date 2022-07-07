@@ -1,6 +1,11 @@
-# Diversio FE take-home
+# Diversio FE take-home - Solution
+Name: Atharva Shivankar <ads8046@g.rit.edu>
 
-This is Diversio's front-end take-home exercise.
+## Introduction
+Thank you for considering me for the role of Full-Stack Engineer. This my solution for
+Diversio's FE take-home that involved building a Color Picker widget! I really enjoyed
+building this widget, so let me briefly walk you through my thought process behind my
+implementation approach.
 
 ## How to run
 
@@ -14,49 +19,49 @@ yarn start
 ```
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-## Part 1: build the Color Picker widget
 
-Please implement `ColorWidget` so that:
+## Implementation
+1. The first step for me to approaching any problem including this exercise was to recognize the
+key functional and non-functional requirements. I aimed to write easy-to-read, loosely-couple, 
+highly-cohesive code that follows the SOLID principles.
 
-- [ ] The list of colors returned in the payload of `fetchColors` is shown as available color choices;
-- [ ] A user can click a color choice, and see a large box change to that color;
-- [ ] The currently selected color is somehow marked (i.e with a black outline);
-- [ ] A long list of color choices should render in a sensible way (i.e. perhaps not all on a single row). The boxes should not "jiggle" around as a user clicks them;
-- [ ] The app does not crash if fetchColors "fails";
+2. I started off by building each component of the widget while keeping in mind that the mock API
+can fail a fetch request. To make sure I built working components, I defined a fixed array of colors 
+instead of initially relying on the array fetched from the mock fetchColors "API"/Promise.
 
-An example solution might look like **color_picker_example_solution.png**.
+3. I populated each component with a pre-defined set of colors.
 
-<img src="https://github.com/DiversioTeam/diversio-fe-exercise/blob/master/color_picker_example_solution.png?raw=true" width="200" />
+4. After a lot of debugging with Chrome and React dev tools and confirming the functionality using pre-determined, 
+I tested the web applicating by passing the values from the API call. 
 
-## Part 2: implement react-redux and redux-saga
+5. Since this was a mock API, I checked if the "server" sent a response. In case of API failure which returned a 
+`null` response, I rendered a fixed set of primary and secondary colors for the user to pick from, facilitating 
+limited functionality of the widget and making it resilient to crashing in the event of an API failure.
 
-The real Diversio app is much more complex, so we use `react-redux` and `redux-saga` in our front end to manage API fetching and making the fetched data available on props to appropriate components.
+6. Like in the case of a real API failure, I logged mock response codes. However, this
+was not done using `response.status()` like you would in case of handling a real API calls and I just logged
+them to the console for the simplicity of this exercise.
 
-We rarely make API calls directly within the component itself.
+7. To handle real API calls, I would use Promise coupled with async/await functions and implement retries.
+I usually like to implement retries to the server using exponential backoff to exponentially increase the time
+a server has to fulfill a failed/timed-out request and return a response body until a set time threshold is met.
+At production level, using middleware services like Amazon SQS queues can help reduce the strain on servers when 
+too many calls are being made in a short time-span.
 
-If you are familiar with one or both of these libraries, please showcase this by implementing store, actions, reducers, and/or sagas to do the data fetch instead.
+8. When the `Color Widget` seemed ready, I did some informal User Acceptance Testing by asking my friend to use 
+my application. After checking off the functional and non-functional requirements, I expanded the scope a little and
+I added a bit of my creative touch to make the widget look nice.
 
-The code that we'd expect you to replace is clearly marked in `ColorWidget`, between `// START OF DATA FETCHING CODE` and `// END OF DATA FETCHING CODE`.
+9. Lastly, I tried but could not implement Redux Actions and Reducers for fetching from the mock API as I have limited experience 
+with Redux and no prior experience with Saga, so those are two libraries I would need to learn! I also have a big
+college project due date approaching so I am short on time to be able to experiment those libraries (and I really love 
+experimenting with new technologies)! :-)
 
-If you are not familiar with these libraries, you may skip part 2.
+Again, thank you so much for taking out your valuable time to review my application and my solution for this exercise! 
+Please do not hesitate to reach out to me if you need any further details or clarification.
 
-## How to submit
-- [ ] Please make at least one commit containing your changes, and write meaningful commit messages.
-- [ ] You can commit to a new git repo and send us the link;
-- [ ] Or, you can .zip up the repo, upload to to Google Drive, and share it. (gmail will not allow sending of .zip with .js files inside)
-- [ ] Please remove `node_modules` - we will run `yarn install`.
-
-## What we're looking for
-This is meant to be a simple task (no gotchas), and reflective of the type of FE work you'd be doing at Diversio. You don't need to do anything fancy. We're looking for:
-
-- Organization and readability in your folder and file structure, JavaScript, JSX, and CSS;
-- Thoughtfulness around managing API calls, null values, and error states;
-- Well-chosen `camelCase` variable names;
-- No warnings in the console related to your code.
-
-If something is unclear, feel free to email. But also, feel free to exercise your best judgement, implement something sensible, and then explain it to us - as you would IRL :)
