@@ -1,5 +1,5 @@
 # Diversio FE take-home - Solution
-Name: Atharva Shivankar <ads8046@g.rit.edu>
+Name: Atharva Shivankar    <ads8046@g.rit.edu>
 
 ## Introduction
 Thank you for considering me for the role of Full-Stack Engineer. This my solution for
