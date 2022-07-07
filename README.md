@@ -18,7 +18,7 @@ yarn install
 yarn start
 ```
 
-I have developed and tested the application on:\
+I have developed and tested the application on:
 - `node version: 15.14.0`
 - `npm version: 7.7.6`
 
