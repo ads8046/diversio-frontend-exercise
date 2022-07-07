@@ -19,8 +19,8 @@ yarn start
 ```
 
 I have developed and tested the application on:
-- `node version: 15.14.0`
-- `npm version: 7.7.6`
+- `node --version`: 15.14.0
+- `npm --version`: 7.7.6
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
