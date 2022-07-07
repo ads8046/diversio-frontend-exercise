@@ -28,7 +28,7 @@ You will also see any lint errors in the console.
 ## Implementation
 1. The first step for me to approaching any problem including this exercise was to recognize the
 key functional and non-functional requirements. I aimed to write easy-to-read, loosely-couple, 
-highly-cohesive code that follows the SOLID principles.
+highly-cohesive code that closely adheres to the SOLID principles.
 
 2. I started off by building each component of the widget while keeping in mind that the mock API
 can fail a fetch request. To make sure I built working components, I defined a fixed array of colors 
