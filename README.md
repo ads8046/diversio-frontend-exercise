@@ -39,7 +39,8 @@ highly-cohesive code that closely adheres to the SOLID principles.
 can fail a fetch request. To make sure I built working components, I defined a fixed array of colors 
 instead of initially relying on the array fetched from the mock fetchColors "API"/Promise.
 
-3. I populated each component with a pre-defined set of colors.
+3. I populated each component with a pre-defined set of colors, and added the expected functionality such as the 
+necessary events that need to occur when the user interacts with the widget and managing the component state.
 
 4. After a lot of debugging with Chrome and React dev tools and confirming the functionality using pre-determined, 
 I tested the web applicating by passing the values from the API call. 
