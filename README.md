@@ -53,7 +53,7 @@ limited functionality of the widget and making it resilient to crashing in the e
 was not done using `response.status()` like you would in case of handling a real API calls and I just logged
 them to the console for the simplicity of this exercise.
 
-7. To handle real API calls, I would use Promise coupled with async/await functions and implement retries.
+7. To handle real API calls, I would use Promises coupled with async/await functions and implement retries.
 I usually like to implement retries to the server using exponential backoff to exponentially increase the time
 a server has to fulfill a failed/timed-out request and return a response body until a set time threshold is met.
 At production level, using middleware services like Amazon SQS queues can help reduce the strain on servers when 
