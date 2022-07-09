@@ -62,7 +62,7 @@ I added a bit of my creative touch to make the widget look nice.
 
 9. Lastly, I tried but could not implement Redux Actions and Reducers for fetching from the mock API as I have limited experience 
 with Redux and no prior experience with Saga, so those are two libraries I would need to learn! I also have a big
-college project due date approaching so I am short on time to be able to experiment those libraries (and I really love 
+college project due date approaching so I am short on time to be able to experiment with the libraries as of now (and I really love 
 experimenting with new technologies)! :-)
 
 Again, thank you so much for taking out your valuable time to review my application and my solution for this exercise! 
