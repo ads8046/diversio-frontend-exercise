@@ -26,9 +26,6 @@ I have developed and tested the application on:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view the app in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
 
 ## Implementation
 1. The first step for me to approaching any problem including this exercise was to recognize the
