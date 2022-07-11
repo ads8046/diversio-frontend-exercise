@@ -29,7 +29,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the app in the brows
 
 ## Implementation
 1. The first step for me to approaching any problem including this exercise was to recognize the
-key functional and non-functional requirements. I aimed to write easy-to-read, loosely-couple, 
+key functional and non-functional requirements. I aimed to write easy-to-read, loosely-coupled, 
 highly-cohesive code that closely adheres to the SOLID principles.
 
 2. I started off by building each component of the widget while keeping in mind that the mock API
@@ -39,8 +39,8 @@ instead of initially relying on the array fetched from the mock fetchColors "API
 3. I populated each component with a pre-defined set of colors, and added the expected functionality such as the 
 necessary events that need to occur when the user interacts with the widget and managing the component state.
 
-4. After a lot of debugging with Chrome and React dev tools and confirming the functionality using pre-determined, 
-I tested the web applicating by passing the values from the API call. 
+4. After a lot of debugging with Chrome and React dev tools and confirming the functionality using a pre-defined set of colors, 
+I tested the web applicating by passing in the actual values from the API call. 
 
 5. Since this was a mock API, I checked if the "server" sent a response. In case of API failure which returned a 
 `null` response, I rendered a fixed set of primary and secondary colors for the user to pick from, facilitating 
