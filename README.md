@@ -6,8 +6,8 @@ Name: Atharva Shivankar    <ads8046@g.rit.edu>
 GitHub Pages Link: https://ads8046.github.io/diversio-frontend-exercise/
 
 ## Introduction
-Thank you for considering me for the role of Junior Engineer at AirVet. This my solution for
-an exercise that involved building a Color Picker widget! I really enjoyed
+Thank you for considering me for the role of Junior Software Engineer at AirVet. This my solution for
+an exercise that involved building a Color Picker widget in React.js! I really enjoyed
 building this project. Let me briefly walk you through my thought process behind my
 implementation approach.\
 You can find the exercise here: https://gitfront.io/r/sometimescasey/9ee3c8450b88bf353cfa45487e002f19399b4477/udkMfz5jPHme8bEs/
@@ -59,10 +59,6 @@ I usually like to implement retries to the server using exponential backoff to e
 a server has to fulfill a failed/timed-out request and return a response body until a set time threshold is met.
 At production level, using middleware services like Amazon SQS queues can help reduce the strain on servers when 
 too many calls are being made in a short time-span.
-
-8. When the `Color Widget` seemed ready, I did some informal User Acceptance Testing by asking my friend to use 
-my application. After checking off the functional and non-functional requirements, I expanded the scope a little and
-I added a bit of my creative touch to make the widget look nice.
 
 Please do not hesitate to reach out to me if you need any further details, have any feedback or require any clarifications.
 
