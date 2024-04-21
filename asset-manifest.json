@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/diversio-frontend-exercise/static/css/main.80ed35fa.chunk.css",
+    "main.js": "/diversio-frontend-exercise/static/js/main.242eb227.chunk.js",
+    "main.js.map": "/diversio-frontend-exercise/static/js/main.242eb227.chunk.js.map",
+    "runtime-main.js": "/diversio-frontend-exercise/static/js/runtime-main.5c65136c.js",
+    "runtime-main.js.map": "/diversio-frontend-exercise/static/js/runtime-main.5c65136c.js.map",
+    "static/js/2.84e6a545.chunk.js": "/diversio-frontend-exercise/static/js/2.84e6a545.chunk.js",
+    "static/js/2.84e6a545.chunk.js.map": "/diversio-frontend-exercise/static/js/2.84e6a545.chunk.js.map",
+    "static/js/3.23b9d3f4.chunk.js": "/diversio-frontend-exercise/static/js/3.23b9d3f4.chunk.js",
+    "static/js/3.23b9d3f4.chunk.js.map": "/diversio-frontend-exercise/static/js/3.23b9d3f4.chunk.js.map",
+    "index.html": "/diversio-frontend-exercise/index.html",
+    "static/css/main.80ed35fa.chunk.css.map": "/diversio-frontend-exercise/static/css/main.80ed35fa.chunk.css.map",
+    "static/js/2.84e6a545.chunk.js.LICENSE.txt": "/diversio-frontend-exercise/static/js/2.84e6a545.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c65136c.js",
+    "static/js/2.84e6a545.chunk.js",
+    "static/css/main.80ed35fa.chunk.css",
+    "static/js/main.242eb227.chunk.js"
+  ]
+}
