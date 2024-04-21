@@ -1,9 +1,13 @@
-# Diversio FE take-home - Solution
+# Color Picker Widger
 Name: Atharva Shivankar    <ads8046@g.rit.edu>
 
+## Project Link
+
+GitHub Pages Link: https://ads8046.github.io/diversio-frontend-exercise/
+
 ## Introduction
-Thank you for considering me for the role of Full-Stack Engineer. This my solution for
-Diversio's FE take-home exercise that involved building a Color Picker widget! I really enjoyed
+Thank you for considering me for the role of Junior Engineer at AirVet. This my solution for
+an exercise that involved building a Color Picker widget! I really enjoyed
 building this project. Let me briefly walk you through my thought process behind my
 implementation approach.\
 You can find the exercise here: https://gitfront.io/r/sometimescasey/9ee3c8450b88bf353cfa45487e002f19399b4477/udkMfz5jPHme8bEs/
@@ -39,7 +43,7 @@ instead of initially relying on the array fetched from the mock fetchColors "API
 3. I populated each component with a pre-defined set of colors, and added the expected functionality such as the 
 necessary events that need to occur when the user interacts with the widget and managing the component state.
 
-4. After a lot of debugging with Chrome and React dev tools and confirming the functionality using a pre-defined set of colors, 
+4. After debugging with Chrome and React dev tools and confirming the functionality using a pre-defined set of colors, 
 I tested the web applicating by passing in the actual values from the API call. 
 
 5. Since this was a mock API, I checked if the "server" sent a response. In case of API failure which returned a 
@@ -60,11 +64,5 @@ too many calls are being made in a short time-span.
 my application. After checking off the functional and non-functional requirements, I expanded the scope a little and
 I added a bit of my creative touch to make the widget look nice.
 
-9. Lastly, I tried but could not implement Redux Actions and Reducers for fetching from the mock API as I have limited experience 
-with Redux and no prior experience with Saga, so those are two libraries I would need to learn! I also have a big
-college project due date approaching so I am short on time to be able to experiment with the libraries as of now (and I really love 
-experimenting with new technologies)! :-)
-
-Again, thank you so much for taking out your valuable time to review my application and my solution for this exercise! 
 Please do not hesitate to reach out to me if you need any further details, have any feedback or require any clarifications.
 
