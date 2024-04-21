@@ -1,4 +1,4 @@
-# Color Picker Widger
+# Color Picker Widget
 Name: Atharva Shivankar    <ads8046@g.rit.edu>
 
 ## Project Link
